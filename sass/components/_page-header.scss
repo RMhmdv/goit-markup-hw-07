@@ -1,3 +1,5 @@
+// Header 
+
 .container.main-container {
     display: flex;
     align-items: center;
@@ -7,13 +9,13 @@
 /* Site-nav */
 .site-nav {
     display: flex;
+}
 
-
-    &.item:not(:last-child) {
+.site-nav .item:not(:last-child) {
     margin-right: 50px;
-    }
+}
 
-    &.link {
+.site-nav .link {
     color: $title-text-color; 
 
     display: block;
@@ -21,15 +23,14 @@
     padding-bottom: 32px;
     position: relative;
     
-    }
-    &.link:hover, 
-    &.link:focus,
-    &.link:active {
-       color: $accent-color;
-    }
-    &.link.current  {
-       color: $accent-color;
-    }
+}
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.site-nav .link:active {
+    color: $accent-color;
+}
+.site-nav  .link.current  {
+    color: $accent-color;
 
 }
 
@@ -55,11 +56,10 @@
     display: flex;
     margin-left: auto;
     align-items: baseline;
+}
 
-
-    &.contact-info__item:not(:last-child) {
-       margin-right: 30px;
-    }
+.contact-info .contact-info__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 
@@ -93,15 +93,14 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-    &:hover,
-    &:focus,
-    &:active {
-
-      color: $accent-color;
-      transform: scale(1.1);
-    }
-
 }
 
+
+.contact-info__link:hover,
+.contact-info__link:focus,
+.contact-info__link:active {
+
+   color: $accent-color;
+   transform: scale(1.1);
+
+}
