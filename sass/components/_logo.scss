@@ -1,0 +1,31 @@
+.logotype {
+    display: block;
+    margin-right: 86px;
+}
+.logo {
+    display: inline-block ;
+
+    color: $accent-color;
+    text-decoration: none;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.logo-top {
+    color: $title-text-color; 
+}
+
+.logotype.footer {
+    margin-bottom: 10px;
+}
+.logo.footer {
+    font-size: 22px;
+    line-height: 1.18;
+}
+.logo-bottom {
+    color: $white-color;
+}
