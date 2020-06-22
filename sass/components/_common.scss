@@ -13,6 +13,19 @@ img {
     height: auto;
 }
 
+body {
+    margin: 0;
+    color: $primary-text-color;
+    background-color: $white-color;
+
+    font-family: $font-main, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 // Container 
 
 .container {
@@ -57,7 +70,7 @@ img {
     
     color: $title-text-color;
 
-    font-family: Roboto;
+    font-family: $font-main, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
